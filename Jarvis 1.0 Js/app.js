@@ -66,7 +66,7 @@ function takeCommand(message){
     else if(message.includes("tell me a joke")){
         speak("Sure, Do You Know What Is The Largest Word In English, Smile Because There Is A Mile Between First And Last Letter Ha Ha Ha Ha");
     }
-    if(message.includes('rohit') || message.includes('biswa')){
+    if(message.includes('rohit') || message.includes('sonu')){
         speak("randi ka bachha, madharchod, tohar mai ke chodo");
     }
     if(message.includes('baby')){
@@ -97,11 +97,11 @@ function takeCommand(message){
         speak("Opening google photos...")
     }
     else if(message.includes("open telegram")){
-        window.open("https://web.telegram.org/k/", "_blank");
+        window.open("https://telegram.org/dl", "_blank");
         speak("Opening telegram...")
     }
     else if(message.includes("open chat")){
-        window.open("https://web.whatsapp.com/", "_blank");
+        window.open("https://whatsapp.com/dl/", "_blank");
         speak("Opening whatsapp...")
     }
     else if(message.includes("open twitter")){
@@ -120,7 +120,7 @@ function takeCommand(message){
         window.open("https://www.amazon.in/?&tag=googhydrabk1-21&ref=pd_sl_7hz2t19t5c_e&adgrpid=155259815513&hvpone=&hvptwo=&hvadid=678802104188&hvpos=&hvnetw=g&hvrand=8858946930720962569&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1007799&hvtargid=kwd-10573980&hydadcr=14453_2371562&gad_source=1", "_blank");
         speak("Opening amazon...")
     }
-    else if(message.includes("open github")){
+    else if(message.includes("open project")){
         window.open("https://github.com/", "_blank");
         speak("Opening github...")
     }
